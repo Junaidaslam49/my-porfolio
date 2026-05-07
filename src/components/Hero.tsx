@@ -49,9 +49,9 @@ export default function Hero() {
 
           <div className="relative rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-xl p-8 overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
+              src="/jd.jpg"
               alt="profile"
-              className="rounded-[28px] w-full h-[550px] object-cover"
+              className="rounded-[28px] w-full h-[550px] object-cover object-[center_26%]"
             />
           </div>
         </motion.div>
