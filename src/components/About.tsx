@@ -22,7 +22,7 @@ export default function About() {
         <p className="uppercase tracking-[0.3em] text-sm text-left text-purple-300 mb-8">
             About
         </p>
-        {/* Heading */}
+        
         <h1 className="text-6xl md:text-8xl font-semibold leading-[0.95] tracking-tight">
           Junaid 
           <span className="bg-gradient-to-b from-violet-300 to-purple-500 bg-clip-text text-transparent">
