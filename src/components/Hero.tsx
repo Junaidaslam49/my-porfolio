@@ -29,13 +29,18 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <button className="px-7 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition">
-              View Projects
-            </button>
-
-            <button className="px-7 py-4 rounded-full border border-white/15 hover:bg-white hover:text-black transition">
-              Contact Me
-            </button>
+          <a
+            href="#projects"
+            className="inline-block px-7 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition"
+          >
+            View Projects
+          </a>
+          <a
+            href="#contact"
+            className="inline-block px-7 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition"
+          >
+            Contact Me
+          </a>
           </div>
         </motion.div>
 

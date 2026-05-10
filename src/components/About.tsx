@@ -24,7 +24,7 @@ export default function About() {
         </p>
         
         <h1 className="text-6xl md:text-8xl font-semibold leading-[0.95] tracking-tight">
-          Junaid 
+          Junaid&nbsp;
           <span className="bg-gradient-to-b from-violet-300 to-purple-500 bg-clip-text text-transparent">
             Aslam
           </span>
@@ -44,14 +44,11 @@ export default function About() {
         {/* Description */}
         <div className="mt-10 max-w-7xl mx-auto">
           <p className="text-white/45 text-lg md:text-2xl leading-relaxed">
-            Experienced frontend developer building production-grade
-            applications with modern UI systems, scalable architecture,
-            performance optimization, and premium user experiences.
+          Experienced frontend developer building production-grade web applications, dashboards, admin panels, and modern digital experiences with scalable architecture, performance optimization, and premium user interfaces.
           </p>
 
           <p className="text-white/45 text-lg md:text-2xl leading-relaxed mt-3">
-            Specialized in React, Next.js, TypeScript, and startup-focused
-            product development.
+          Passionate about creating intuitive, responsive, and high-quality products for startups, businesses, and modern web platforms.
           </p>
         </div>
 
