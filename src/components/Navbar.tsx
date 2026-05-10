@@ -30,7 +30,7 @@ export default function Navbar() {
               </div>
 
               <span className="text-white font-semibold text-lg tracking-tight">
-                Junaid<span class="text-indigo-400">.</span>
+                Junaid<span className="text-indigo-400">.</span>
               </span>
             </motion.a>
 
