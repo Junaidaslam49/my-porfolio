@@ -9,7 +9,7 @@ export default function About() {
       id="about"
       className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden"
     >
-      {/* Purple Glow */}
+      {/* Purple Glow1 */}
       <div className="absolute bottom-0 right-[10%]  bg-purple-600/20 blur-[140px] rounded-full" />
 
       <motion.div
