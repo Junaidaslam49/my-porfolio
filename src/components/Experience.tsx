@@ -4,39 +4,63 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-    role: 'Frontend Developer',
+    role: 'Lead Front End Developer',
     company: 'OnRekord',
-    badge: 'Startup',
-    period: '2024 — Present',
+    period: '2023 — Present',
     points: [
-      'Built and scaled modern NFT platforms, dashboards, and marketplace interfaces.',
-      'Developed premium frontend systems with responsive and pixel-perfect UI implementation.',
-      'Collaborated closely with founders, designers, and backend teams in agile environments.',
-      'Optimized application performance, animations, and overall user experience.',
+      'Leading frontend development for NFT platforms, dashboards, admin panels, marketplaces, and modern web applications.',
+      'Collaborating with backend developers and designers to deliver seamless, responsive, and high-performance user experiences.',
+      'Implemented scalable frontend architecture, performance optimization, and modern UI systems across multiple production products.',
+      'Integrated APIs and developed scalable state management systems for complex application workflows.',
+      'Built reusable frontend components and optimized data handling for improved maintainability and performance.',
+      'Successfully delivered and launched multiple client projects resulting in improved engagement and positive product feedback.',
     ],
   },
   {
-    role: 'Frontend Developer',
-    company: 'PrimeHRMS',
-    badge: 'Enterprise',
-    period: '2023 — 2024',
+    role: 'Front End Developer',
+    company: 'Lokr',
+    period: '2021 — 2023',
     points: [
-      'Contributed to enterprise HRMS systems including payroll, attendance, and admin panels.',
-      'Built reusable frontend components and scalable UI architecture.',
-      'Improved usability and responsiveness across multiple management dashboards.',
+      'Developed responsive admin panels, dashboards, and user-friendly web applications using modern frontend technologies.',
+      'Collaborated closely with design teams to transform Figma designs into pixel-perfect and production-ready interfaces.',
+      'Integrated APIs and implemented scalable state management solutions across multiple frontend applications.',
+      'Improved application performance, responsiveness, and SEO implementation across multiple web platforms.',
+      'Built reusable UI components and scalable frontend patterns focused on high-quality user experience.',
     ],
   },
   {
-    role: 'Frontend Developer',
-    company: 'Freelance & Startup Projects',
-    badge: 'Remote',
-    period: '2022 — Present',
+    role: 'Front End Developer',
+    company: 'Mission',
+    period: '2019 — 2021',
     points: [
-      'Delivered production-grade frontend solutions for startups and modern web platforms.',
-      'Transformed Figma designs into scalable and high-quality user interfaces.',
-      'Built responsive websites, crypto platforms, dashboards, and admin systems.',
+      'Developed responsive websites and interactive user interfaces for large-scale web projects.',
+      'Worked with international teams to implement frontend features and improve website usability and performance.',
+      'Collaborated with cross-functional teams to maintain design consistency across multiple platforms and devices.',
+      'Maintained and optimized existing applications following modern frontend standards and best practices.',
     ],
   },
+  // {
+  //   role: 'Junior Software Engineer',
+  //   company: 'PAAYSAY LTD',
+  //   period: '2018 — 2019',
+  //   points: [
+  //     'Developed responsive frontend features and contributed to modern framework integration in production systems.',
+  //     'Built secure payment-related user flows for UK-based financial service platforms.',
+  //     'Collaborated with senior engineers on API development and backend integration using Laravel.',
+  //     'Focused on performance, usability, and scalable frontend implementation across payment applications.',
+  //   ],
+  // },
+  // {
+  //   role: 'Frontend Developer',
+  //   company: 'H3 Solutions',
+  //   period: '2015 — 2018',
+  //   points: [
+  //     'Started as an intern and progressed into development and technical support leadership roles.',
+  //     'Built portfolio websites, marketing assets, banners, and responsive business web platforms.',
+  //     'Led a 6-member team while managing client communication and project delivery workflows.',
+  //     'Collaborated across teams to deliver user-focused digital solutions with modern UI implementation.',
+  //   ],
+  // },
 ];
 
 export default function Experience() {
@@ -96,9 +120,9 @@ export default function Experience() {
                           {item.role}
                         </h3>
 
-                        <span className="px-4 py-1 rounded-full border border-purple-500/20 bg-purple-500/10 text-purple-300 text-sm">
+                        {/* <span className="px-4 py-1 rounded-full border border-purple-500/20 bg-purple-500/10 text-purple-300 text-sm">
                           {item.badge}
-                        </span>
+                        </span> */}
                       </div>
 
                       <p className="text-purple-200 text-xl">
