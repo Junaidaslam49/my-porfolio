@@ -9,7 +9,11 @@ const skillGroups = [
     color:
       'from-cyan-500/10 to-cyan-500/5 border-cyan-500/20 text-cyan-300',
     skills: [
+      
+      'Html5',
+      'CSS3',
       'React',
+      'Vue',
       'Next.js',
       'TypeScript',
       'JavaScript (ES6+)',
@@ -32,13 +36,8 @@ const skillGroups = [
       'REST APIs',
       'GraphQL',
       'API Integration',
-      'Node.js',
-      'Express.js',
-      'Laravel',
       'Authentication',
       'WebSocket',
-      'Firebase',
-      'Socket.IO',
     ],
   },
   {
@@ -50,8 +49,6 @@ const skillGroups = [
       'Redux',
       'Redux Toolkit',
       'Context API',
-      'Zustand',
-      'React Query',
       'Global State',
       'Scalable Architecture',
       'Reusable Components',
@@ -65,11 +62,6 @@ const skillGroups = [
     skills: [
       'MongoDB',
       'MySQL',
-      'Firebase',
-      'Strapi',
-      'Sanity',
-      'Headless CMS',
-      'Dynamic Data Handling',
     ],
   },
   {
@@ -78,10 +70,8 @@ const skillGroups = [
     color:
       'from-emerald-500/10 to-emerald-500/5 border-emerald-500/20 text-emerald-300',
     skills: [
-      'Git',
       'GitHub',
       'Vercel',
-      'Netlify',
       'CI/CD',
       'Performance Optimization',
       'SEO',
