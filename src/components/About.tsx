@@ -56,7 +56,7 @@ export default function About() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-20 max-w-3xl mx-auto">
           <div>
             <h3 className="text-4xl font-semibold bg-gradient-to-b from-violet-300 to-purple-500 bg-clip-text text-transparent">
-              3+
+              5+
             </h3>
 
             <p className="text-white/40 mt-2 text-sm md:text-base">
@@ -66,7 +66,7 @@ export default function About() {
 
           <div>
             <h3 className="text-4xl font-semibold bg-gradient-to-b from-violet-300 to-purple-500 bg-clip-text text-transparent">
-              10+
+              20+
             </h3>
 
             <p className="text-white/40 mt-2 text-sm md:text-base">
@@ -76,7 +76,7 @@ export default function About() {
 
           <div>
             <h3 className="text-4xl font-semibold bg-gradient-to-b from-violet-300 to-purple-500 bg-clip-text text-transparent">
-              5+
+              15+
             </h3>
 
             <p className="text-white/40 mt-2 text-sm md:text-base">
@@ -117,7 +117,7 @@ export default function About() {
           <motion.a
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
-            href="mailto:your@email.com"
+            href="mailto:junaidaslam49@yahoo.com"
             className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl px-8 py-5 text-white/80 hover:bg-white/[0.06] transition"
           >
             Let's connect
@@ -127,7 +127,7 @@ export default function About() {
           <motion.a
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.98 }}
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/junaid-aslam-833897165/"
             target="_blank"
             className="rounded-2xl border border-white/10 bg-white/[0.03] backdrop-blur-xl px-8 py-5 text-white/80 hover:bg-white/[0.06] transition flex items-center gap-3"
           >
