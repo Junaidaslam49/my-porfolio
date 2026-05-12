@@ -8,6 +8,7 @@ import Experience from '../components/Experience';
 import Contact from '../components/Contact';
 import BackgroundEffects from '../components/BackgroundEffects';
 import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <Skills />
 
       <Contact />
+      <Footer />
     </main>
   );
 }
