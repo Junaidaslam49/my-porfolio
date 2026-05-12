@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4">
           <a
             href="#projects"
-            className="inline-block px-7 py-4 rounded-full bg-white text-black font-medium hover:scale-105 transition"
+            className="inline-block px-7 py-4 rounded-full bg-gradient-to-r from-violet-500 to-purple-600 text-white font-semibold text-lg shadow-[0_0_60px_rgba(139,92,246,0.45)] font-medium hover:scale-105 transition"
           >
             View Projects
           </a>
